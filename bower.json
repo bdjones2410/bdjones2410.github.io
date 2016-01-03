@@ -1,0 +1,22 @@
+{
+  "name": "Portfolio",
+  "homepage": "https://github.com/bdjones2410/bdjones2410.github.io",
+  "authors": [
+    "Brandon Jones <bdjones2410@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.8.3",
+    "jquery": "~2.1.4"
+  }
+}

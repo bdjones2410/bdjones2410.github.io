@@ -1,14 +1,68 @@
-body{
-  background-color: black;
+$testBorder: 1px solid white;
+$cloudwhite: #ecf0f1;
+$darkblue:#182538;
+$ourGreen:#2DB069;
+$ourRed:#E94835;
+$darkergrey:#bdc3c7;
+
+#wrapper{
+  // background-color: $darkblue;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  min-width: 100% !important;
   color:white;
+  background-image: url(images/mothernaturestatue.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  min-height:100% !important;
 }
 
 header{
-  height:50px;
-  background-color:red;
+  height:400px;
+  width: 100%;
+  color:$ourRed;
+
+
+    h1{
+      display: inline-block;
+      font-size: 7em;
+      padding-left: 25px;
+    }
+    h3{
+      color:$cloudwhite;
+      margin-left: 50px;
+      text-shadow: 1px solid black;
+    }
+
+}
+.boxopt {
+  position: relative;
+  background-color: $darkblue;
+  background: rgba(24, 37, 56, 0.5);
+  vertical-align: middle;
+  height: 400px;
+  h2{
+  opacity: .8;
+  }
+  &:hover{
+    background: rgba(24,37,56,0.0);
+    cursor: pointer;
+    h2{
+      opacity: 1;
+
+    }
+  }
+
 }
 
 .container{
   width:80%;
   margin:0 auto;
+}
+
+.footer{
+  text-align: center;
+  clear:both;
+  background-color: $darkblue;
 }
