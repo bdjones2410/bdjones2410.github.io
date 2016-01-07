@@ -7,40 +7,75 @@
   background-image: url(images/mothernaturestatue.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   min-height: 100% !important; }
+  #wrapper .filter {
+    background: rgba(24, 37, 56, 0.3); }
 
 header {
-  height: 400px;
   width: 100%;
-  color: #E94835; }
+  color: white; }
   header h1 {
     display: inline-block;
     font-size: 7em;
     padding-left: 25px; }
   header h3 {
-    color: #ecf0f1;
+    color: white;
     margin-left: 50px;
     text-shadow: 1px solid black; }
 
 .boxopt {
-  position: relative;
-  background-color: #182538;
-  background: rgba(24, 37, 56, 0.5);
-  vertical-align: middle;
-  height: 400px; }
+  background: rgba(24, 37, 56, 0);
+  text-align: center; }
   .boxopt h2 {
     opacity: .8; }
   .boxopt:hover {
-    background: rgba(24, 37, 56, 0);
+    background: rgba(24, 37, 56, 0.8);
     cursor: pointer; }
     .boxopt:hover h2 {
       opacity: 1; }
 
+.techbox {
+  overflow: hidden;
+  width: 100%;
+  background-color: #182538;
+  text-align: center;
+  font-size: 5em;
+  padding: 50px;
+  border: 1px solid white;
+  height: 200px;
+  position: absolute; }
+
+.upperbox {
+  width: 100%; }
+
+.twitch:hover {
+  width: 90%; }
+
+.lowerbox {
+  width: 51%;
+  right: -35px; }
+
+.tech {
+  display: block; }
+
+.Projects {
+  padding-top: 10px;
+  height: 200px;
+  margin: 20px; }
+
 .container {
   width: 80%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
+
+section {
+  min-height: 1000px; }
 
 .footer {
   text-align: center;
   clear: both;
   background-color: #182538; }
+
+.shrunk {
+  width: 50%; }
