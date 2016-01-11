@@ -24,11 +24,13 @@
         if(wideness > 60){
 
             $(this).animate({width:"20%"},1000);
+            $(this).addClass('smallPadding');
             $(this).siblings('.lowerbox').animate({width:'80%'},1000);
             $(this).parent('.Projects').animate({height:biggertech},1000);
             $(this).children().toggleClass('hidden');
         }else {
           $(this).animate({width:"100%"},1000);
+          $(this).removeClass('smallPadding');
           $(this).siblings('.lowerbox').animate({width:'40%'},1000);
           $(this).parent('.Projects').animate({height:techhigh},1000);
           $(this).children().toggleClass('hidden');
@@ -38,6 +40,7 @@
           $(this).parent().siblings().children('.upperbox').children().toggleClass('hidden');
         }
         $(this).parent().siblings().children('.lowerbox').animate({width:'40%'},1000);
+        $(this).parent().siblings().children().removeClass('smallPadding');
         $(this).parent('.Projects').siblings().animate({height:techhigh},1000);
       });
     },

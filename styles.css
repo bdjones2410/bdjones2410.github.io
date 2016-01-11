@@ -86,16 +86,38 @@ header {
   .upperbox .techimg {
     max-height: 71px;
     max-width: 100%; }
+  .upperbox ul {
+    font-weight: 100;
+    font-size: 0.3em;
+    text-align: left;
+    margin: 21px 21px 10px 10px;
+    display: block; }
+    .upperbox ul li {
+      list-style-type: circle; }
 
 .lowerbox {
   width: 51%;
   right: 0;
-  position: absolute; }
+  position: absolute;
+  width: 80%;
+  color: #ecf0f1;
+  background-color: #34495e; }
   .lowerbox .projimgbox {
-    padding: 5px;
-    margin: 5px 5px; }
+    padding-left: 10px;
+    height: 100%; }
     .lowerbox .projimgbox img {
-      max-width: 100%; }
+      max-width: 100%;
+      height: 80%;
+      margin-top: 10%;
+      border: 2px solid black; }
+  .lowerbox .projabout {
+    padding-left: 0;
+    font-size: 1em; }
+    .lowerbox .projabout h3 {
+      font-weight: 600; }
+    .lowerbox .projabout p {
+      font-size: 0.3em;
+      font-weight: 100; }
 
 /******************************************
                 RESUME
@@ -133,3 +155,9 @@ header {
   text-align: center;
   clear: both;
   background-color: #182538; }
+
+/*****************************************
+            OVERWRITE CLASS
+*****************************************/
+.smallPadding {
+  padding: 20px 15px; }
