@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:400,100,200,300,500,600,700,800,900);
 /******************************************
                 OVERALL
 ******************************************/
 body {
-  color: white; }
+  color: white;
+  font-family: 'Exo', sans-serif; }
 
 #wrapper {
   position: relative;
@@ -20,7 +22,8 @@ body {
     height: 100%; }
 
 section {
-  position: relative; }
+  position: relative;
+  min-height: 500px; }
 
 /******************************************
                 HEADER
@@ -63,7 +66,6 @@ header {
   position: relative; }
 
 .Projects {
-  padding-top: 10px;
   margin: 20px;
   color: white;
   position: relative; }
@@ -81,12 +83,19 @@ header {
 .upperbox {
   width: 100%;
   padding: 35px; }
+  .upperbox .techimg {
+    max-height: 71px;
+    max-width: 100%; }
 
 .lowerbox {
   width: 51%;
   right: 0;
-  position: absolute;
-  height: 94%; }
+  position: absolute; }
+  .lowerbox .projimgbox {
+    padding: 5px;
+    margin: 5px 5px; }
+    .lowerbox .projimgbox img {
+      max-width: 100%; }
 
 /******************************************
                 RESUME
@@ -102,8 +111,7 @@ header {
   background-image: url(images/trees.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  min-height: 100% !important; }
+  background-attachment: fixed; }
 
 .upAbout {
   position: absolute; }
@@ -115,8 +123,7 @@ header {
   background-image: url(images/lake.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  min-height: 100% !important; }
+  background-attachment: fixed; }
 
 /******************************************
                 FOOTER
