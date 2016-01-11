@@ -11,6 +11,9 @@
       page.events();
     },
     styling:function(){
+      var scrnHeight = $(window).height();
+      $('section').css('height',scrnHeight+50);
+      $('.Projects').css('height',scrnHeight/4-25);
 
     },
     events:function(){

@@ -3,8 +3,11 @@
 /******************************************
                 OVERALL
 ******************************************/
+body{
+  color:white;
+}
 #wrapper{
-  position: absolute;
+  position: relative;
   margin: 0;
   padding: 0;
   min-width: 100% !important;
@@ -16,7 +19,11 @@
   min-height:100% !important;
   .filter{
     background: $shadedBlueBG;
+    height:100%;
   }
+}
+section{
+  position: relative;
 }
 
 /******************************************
@@ -61,6 +68,9 @@ header{
 /******************************************
                 PROJECTS
 ******************************************/
+.collection{
+  background:$darkerbluebg;
+}
 .container{
   width:80%;
   margin:0 auto;
@@ -68,43 +78,67 @@ header{
 }
 .Projects{
   padding-top: 10px;
-  height: 200px;
   margin: 20px;
+  color: white;
+  position: relative;
 }
 .techbox {
   overflow: hidden;
   width: 100%;
+  height: 100%;
   background-color: #182538;
   text-align: center;
   font-size: 5em;
-  padding: 50px;
   border: 1px solid white;
-  height: 200px;
-  position: absolute;
+  position: relative;
 }
+
 .upperbox{
   width:100%;
+  padding:35px;
 }
 .lowerbox{
   width: 51%;
-  right: -35px;
+  right: 0;
+  position: absolute;
+  height: 94%;
 }
 /******************************************
                 RESUME
 ******************************************/
-
+.resume{
+  background:$darkerbluebg;
+  color:white;
+}
 /******************************************
                 ABOUT
 ******************************************/
+.aboutMe{
+  background-image: url(images/trees.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height:100% !important;
+}
+.upAbout{
+  position: absolute;
+}
 
 /******************************************
                 CONTACT
 ******************************************/
-
+.contactMe{
+  background-image: url(images/lake.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height:100% !important;
+}
 /******************************************
                 FOOTER
 ******************************************/
 .footer{
+  color:white;
   text-align: center;
   clear:both;
   background-color: $darkblue;

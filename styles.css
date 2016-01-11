@@ -1,8 +1,11 @@
 /******************************************
                 OVERALL
 ******************************************/
+body {
+  color: white; }
+
 #wrapper {
-  position: absolute;
+  position: relative;
   margin: 0;
   padding: 0;
   min-width: 100% !important;
@@ -13,7 +16,11 @@
   background-attachment: fixed;
   min-height: 100% !important; }
   #wrapper .filter {
-    background: rgba(24, 37, 56, 0.3); }
+    background: rgba(24, 37, 56, 0.3);
+    height: 100%; }
+
+section {
+  position: relative; }
 
 /******************************************
                 HEADER
@@ -47,53 +54,75 @@ header {
 /******************************************
                 PROJECTS
 ******************************************/
-/******************************************
-                RESUME
-******************************************/
-/******************************************
-                ABOUT
-******************************************/
-/******************************************
-                CONTACT
-******************************************/
-.techbox {
-  overflow: hidden;
-  width: 100%;
-  background-color: #182538;
-  text-align: center;
-  font-size: 5em;
-  padding: 50px;
-  border: 1px solid white;
-  height: 200px;
-  position: absolute; }
-
-.upperbox {
-  width: 100%; }
-
-.lowerbox {
-  width: 51%;
-  right: -35px; }
-
-.tech {
-  display: block; }
-
-.Projects {
-  padding-top: 10px;
-  height: 200px;
-  margin: 20px; }
+.collection {
+  background: rgba(24, 37, 56, 0.95); }
 
 .container {
   width: 80%;
   margin: 0 auto;
   position: relative; }
 
-section {
-  min-height: 1000px; }
+.Projects {
+  padding-top: 10px;
+  margin: 20px;
+  color: white;
+  position: relative; }
 
+.techbox {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #182538;
+  text-align: center;
+  font-size: 5em;
+  border: 1px solid white;
+  position: relative; }
+
+.upperbox {
+  width: 100%;
+  padding: 35px; }
+
+.lowerbox {
+  width: 51%;
+  right: 0;
+  position: absolute;
+  height: 94%; }
+
+/******************************************
+                RESUME
+******************************************/
+.resume {
+  background: rgba(24, 37, 56, 0.95);
+  color: white; }
+
+/******************************************
+                ABOUT
+******************************************/
+.aboutMe {
+  background-image: url(images/trees.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100% !important; }
+
+.upAbout {
+  position: absolute; }
+
+/******************************************
+                CONTACT
+******************************************/
+.contactMe {
+  background-image: url(images/lake.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100% !important; }
+
+/******************************************
+                FOOTER
+******************************************/
 .footer {
+  color: white;
   text-align: center;
   clear: both;
   background-color: #182538; }
-
-.shrunk {
-  width: 50%; }
