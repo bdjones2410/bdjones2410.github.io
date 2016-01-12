@@ -35,7 +35,8 @@
           }
           sibs.animate({width:"100%"},1000);
           if($(this).parent().siblings().children('.upperbox').children('span').hasClass('hidden')){
-            $(this).parent().siblings().children('.upperbox').children().toggleClass('hidden');
+            $(this).parent().siblings().children('.upperbox').children('span.hidden').siblings().toggleClass('hidden');
+            $(this).parent().siblings().children('.upperbox').children('span.hidden').toggleClass('hidden');
           }
           $(this).parent().siblings().children('.lowerbox').animate({width:'40%'},1000);
           $(this).parent().siblings().children().removeClass('smallPadding');
