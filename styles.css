@@ -112,12 +112,23 @@ header {
       border: 2px solid black; }
   .lowerbox .projabout {
     padding-left: 0;
-    font-size: 1em; }
+    font-size: 1em;
+    height: 100%; }
     .lowerbox .projabout h3 {
       font-weight: 600; }
     .lowerbox .projabout p {
       font-size: 0.3em;
       font-weight: 100; }
+  .lowerbox .linksOut {
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+    .lowerbox .linksOut a {
+      text-decoration: none;
+      color: inherit;
+      margin: 0 40px; }
+    .lowerbox .linksOut i {
+      margin: 10px; }
 
 /******************************************
                 RESUME
