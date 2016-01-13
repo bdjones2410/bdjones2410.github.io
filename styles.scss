@@ -102,6 +102,7 @@ header{
   .techimg{
     max-height:71px;
     max-width:100%;
+    background: rgba(255,255,255,0.1);
   }
 
   ul{
@@ -145,13 +146,10 @@ header{
     }
   }
   .linksOut{
-    position: absolute;
-    bottom:0;
-    width:100%;
+      font-size: 0.5em;
     a{
       text-decoration: none;
       color:inherit;
-      margin:0 40px;
     }
     i{
       margin:10px;
@@ -166,7 +164,47 @@ header{
 .resume{
   background:$darkerbluebg;
   color:white;
-}
+  text-align: center;
+  div{
+    vertical-align: top;
+    margin:50px 0;
+  }
+  .sideResume{
+    display: inline-block;
+    width:25%;
+    ul>li{
+      text-align: left;
+      font-weight: 200;
+    }
+    p{
+      font-weight:200;
+      text-align: right;
+    }
+    h4{
+      font-weight: 800;
+      margin-bottom: 50px;
+    }
+    h3{
+      font-weight: 800;
+      text-align: right;
+    }
+  }
+  .mainResume{
+    display:inline-block;
+    width:40%;
+    img{
+      max-width: 100%;
+    }
+  }
+  }
+  .download{
+    font-size: 2em;
+    text-align: right;
+    p{
+      display:inline-block;
+    }
+  }
+
 /******************************************
                 ABOUT
 ******************************************/
