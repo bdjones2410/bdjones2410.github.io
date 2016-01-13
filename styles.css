@@ -7,47 +7,58 @@ body {
   font-family: 'Exo', sans-serif; }
 
 #wrapper {
+  height: 600px;
   position: relative;
   margin: 0;
   padding: 0;
   min-width: 100% !important;
   color: white;
-  background-image: url(images/mothernaturestatue.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 100% !important; }
   #wrapper .filter {
-    background: rgba(24, 37, 56, 0.3);
     height: 100%; }
 
 section {
   position: relative;
-  min-height: 500px; }
+  min-height: 500px;
+  height: 100%; }
 
 /******************************************
                 HEADER
 ******************************************/
 header {
   width: 100%;
-  color: white; }
+  color: black; }
   header h1 {
     display: inline-block;
     font-size: 7em;
     padding-left: 25px; }
   header h3 {
-    color: white;
-    margin-left: 50px;
-    text-shadow: 1px solid black; }
+    margin-left: 50px; }
 
 /******************************************
                 NAV
 ******************************************/
+.customNav {
+  height: 100%;
+  padding-bottom: 30px;
+  position: fixed;
+  right: 0;
+  z-index: 100;
+  background: rgba(154, 175, 196, 0.5); }
+
 .boxopt {
+  margin-top: 30px;
   background: rgba(24, 37, 56, 0);
-  text-align: center; }
+  text-align: center;
+  clear: both;
+  width: 100%; }
   .boxopt h2 {
-    opacity: .8; }
+    font-size: 2em;
+    font-weight: 100;
+    color: white; }
   .boxopt:hover {
     background: rgba(24, 37, 56, 0.8);
     cursor: pointer; }
@@ -55,10 +66,22 @@ header {
       opacity: 1; }
 
 /******************************************
+                ABOUT
+******************************************/
+.aboutMe {
+  background: rgba(24, 37, 56, 0.95); }
+
+.upAbout {
+  position: absolute; }
+
+/******************************************
                 PROJECTS
 ******************************************/
 .collection {
-  background: rgba(24, 37, 56, 0.95); }
+  background-image: url(images/mothernaturestatue.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 .container {
   width: 80%;
@@ -68,7 +91,10 @@ header {
 .Projects {
   margin: 20px;
   color: white;
-  position: relative; }
+  position: relative;
+  opacity: 0.7; }
+  .Projects:hover {
+    opacity: 1; }
 
 .techbox {
   overflow: hidden;
@@ -77,13 +103,29 @@ header {
   background-color: #182538;
   text-align: center;
   font-size: 5em;
-  border: 1px solid white;
+  border: 4px solid #34495e;
+  border-radius: 20px;
   position: relative; }
+
+.openUpper {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.openLower {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
 
 .upperbox {
   width: 100%;
   padding: 35px;
   overflow: scroll; }
+  .upperbox .fa {
+    position: absolute;
+    right: 10px;
+    font-size: 1.4em;
+    opacity: 0.5; }
+    .upperbox .fa:hover {
+      opacity: 1; }
   .upperbox .techimg {
     max-height: 71px;
     max-width: 100%;
@@ -96,6 +138,12 @@ header {
     display: block; }
     .upperbox ul li {
       list-style-type: circle; }
+
+.altText .fa {
+  font-size: .5em;
+  opacity: 0.5; }
+  .altText .fa:hover {
+    opacity: 1; }
 
 .lowerbox {
   width: 51%;
@@ -128,6 +176,9 @@ header {
       color: inherit; }
     .lowerbox .linksOut i {
       margin: 10px; }
+
+.noOP {
+  opacity: 1; }
 
 /******************************************
                 RESUME
@@ -167,18 +218,6 @@ header {
     display: inline-block; }
 
 /******************************************
-                ABOUT
-******************************************/
-.aboutMe {
-  background-image: url(images/trees.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
-
-.upAbout {
-  position: absolute; }
-
-/******************************************
                 CONTACT
 ******************************************/
 .contactMe {
@@ -191,10 +230,13 @@ header {
                 FOOTER
 ******************************************/
 .footer {
+  z-index: 250;
   color: white;
   text-align: center;
   clear: both;
-  background-color: #182538; }
+  background-color: #182538;
+  position: absolute;
+  width: 100%; }
 
 /*****************************************
             OVERWRITE CLASS
