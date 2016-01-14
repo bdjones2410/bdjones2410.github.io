@@ -15,30 +15,35 @@
 
 <body>
     <nav class="nav customNav">
-      <div class="col-md-4 boxopt">
-        <h2 class="navlinks">Home</h2>
-      </div>
-        <div class="col-md-2 boxopt">
-            <h2 class="navlinks">Projects</h2>
+      <a href="#home">
+        <div class="col-md-4 boxopt">
+          <h2 class="navlinks">Home</h2>
         </div>
-
-
+      </a>
+      <a href="#about">
         <div class="col-md-2 boxopt">
             <h2 class="navlinks">About</h2>
         </div>
-
-
+      </a>
+      <a href="#projects">
+        <div class="col-md-2 boxopt">
+            <h2 class="navlinks">Projects</h2>
+        </div>
+      </a>
+      <a href="#resume">
         <div class="col-md-2 boxopt">
             <h2 class="navlinks">Resume</h2>
         </div>
-
-
+      </a>
+      <a href="#contact">
         <div class="col-md-2 boxopt">
             <h2 class="navlinks">Contact</h2>
         </div>
+      </a>
     </nav>
 
     <section id="wrapper">
+      <a name="home"></a>
         <div class="filter">
             <header>
                 <h1>Brandon Jones</h1>
@@ -46,11 +51,15 @@
 
                 <h3>Web & Software Developer</h3>
             </header>
+
         </div>
+
     </section>
     <!--PROJECTS-->
 
     <section class="aboutMe">
+      <a name="about"></a>
+      <div class="container">
         <div class="upAbout">
             <h1>Brandon Jones</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -61,10 +70,12 @@
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
+      </div>
     </section>
 
     <section class="collection">
         <div class="container">
+          <a name="projects"></a>
             <div class="Projects">
                 <div class="techbox lowerbox">
                     <div class="col-md-6 projimgbox">
@@ -298,88 +309,92 @@
 
 
     <section class="resume">
-        <div class="sideResume container">
-            <h4>Skills</h4>
-
-
-            <ul class="skillslist">
-                <li class="languages">Javascript</li>
-
-
-                <li class="languages">Angular</li>
-
-
-                <li class="languages">Angular-route</li>
-
-
-                <li class="languages">Ui-router</li>
-
-
-                <li class="languages">Backbone</li>
-
-
-                <li class="languages">Underscore</li>
-
-
-                <li class="languages">AJAX</li>
-
-
-                <li class="languages">jQuery</li>
-
-
-                <li class="languages">Sass/CSS3</li>
-
-
-                <li class="languages">HTML5</li>
-
-
-                <li class="languages">BootStrap</li>
-
-
-                <li class="languages">Git/Github</li>
-
-
-                <li class="languages">Bower</li>
-
-
-                <li class="languages">Node Package Manager</li>
-            </ul>
+      <a name="resume"></a>
+      <div class="sideResume container">
+          <h4>Skills</h4>
+          <ul class="skillslist">
+              <li class="languages">
+                <h3>JavaScript</h3>
+                  <ul class="libs">
+                    <li class="libsLi">Angular</li>
+                    <li class="libsLi">Backbone</li>
+                    <li class="libsLi">Underscore</li>
+                    <li class="libsLi">jQuery</li>
+                    <li class="libsLi">Angular-Route</li>
+                    <li class="libsLi">UI-router</li>
+                    <li class="libsLi">Moment</li>
+                    <li class="libsLi">Node.js</li>
+                    <li class="libsLi">Phaser</li>
+                  </ul>
+              </li>
+              <li class="languages">
+                <h3>HTML/CSS</h3>
+                  <ul class="libs">
+                    <li class="libsLi">SASS</li>
+                    <li class="libsLi">Bootstrap</li>
+                    <li class="libsLi">flatUI</li>
+                    <li class="libsLi">Material Design Lite</li>
+                  </ul>
+              </li>
+              <li class="languages">
+                <h3>Developer Tools</h3>
+                  <ul class="libs">
+                    <li class="libsLi">Bower</li>
+                    <li class="libsLi">Node Package Manager</li>
+                    <li class="libsLi">Gulp</li>
+                  </ul>
+              </li>
+              <li class="languages">
+                <h3>Collaboration</h3>
+                  <ul class="libs">
+                    <li class="libsLi">Git</li>
+                    <li class="libsLi">Github</li>
+                    <li class="libsLi">Team Oriented</li>
+                    <li class="libsLi">Scrum</li>
+                  </ul>
+              </li>
+              <li class="languages resting">
+                <h3>Resful API's</h3>
+                  <p>Experience interacting with third Party API's with AJAX or JS Framework
+                  </p>
+              </li>
+          </ul>
             <div class="download">
               <a href="images/Resume.pdf" target="_blank">
-                <p>full PDF</p>
+                <p>Full Resume</p>
                 <i class="fa fa-file-pdf-o"></i>
               </a>
             </div>
         </div>
-
     </section>
     <!-- CONTACT -->
 
 
     <section class="contactMe">
-        <ul class="contact">
-            <li class="getme">email</li>
+      <a name="contact"></a>
+        <div class="container">
+          <ul class="contact">
+              <li class="getme">email</li>
 
 
-            <li class="getme">Phone</li>
+              <li class="getme">Phone</li>
 
 
-            <li class="getme">Github</li>
+              <li class="getme">Github</li>
 
 
-            <li class="getme">Stuff</li>
-        </ul>
+              <li class="getme">Stuff</li>
+          </ul>
+        </div>
     </section>
-
-
     <footer class="footer">
         <span>&copy; Brandon Jones 2016</span><br>
-        <span>photo credit: <a href=
+        <span>photo credit:
+          <a target="_blank"href="https://unsplash.com/alejandroescamilla">Alejandro Escamilaa</a>,
+          <a target="_blank"href=
         "http://www.lorenzoquinn.com/en/the-force-of-nature-ii-new-york">Lorenzo
-        Quinn</a>, <a href="https://500px.com/gpiotr205">Piotr Galus</a>,
-        <a href=
-        "http://d3oxn90f3yphmd.cloudfront.net/sites/default/files/elements/destination/geography/finland_palsankyla_sunrise-lake-serenity.jpg">
-        Finland</a></span>
+        Quinn</a>,
+        <a target="_blank"href="https://unsplash.com/craiggarner">Craig Garner</a></span>
     </footer>
     <script charset="utf-8" src="bower_components/underscore/underscore.js">
     </script>

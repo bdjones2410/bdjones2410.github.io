@@ -9,26 +9,29 @@ body{
   font-family: 'Exo', sans-serif;
 }
 #wrapper{
-  height:600px;
+  height: 600px;
   position: relative;
   margin: 0;
   padding: 0;
-  min-width: 100% !important;
-  color:white;
-  // background-image: url(images/trees.jpg);
-  background-size:cover;
+  color: white;
+  background-image: url('images/headeroffice.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-height:100% !important;
-  .filter{
-    // background: $shadedBlueBG;
-    height:100%;
-  }
+}
+.filter{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  padding-left:30px;
+  background: rgba(1,1,1,0.4);
 }
 section{
   position: relative;
   min-height:500px;
   height:100%;
+  padding-top:50px;
+  padding-bottom: 50px;
 }
 
 /******************************************
@@ -38,14 +41,17 @@ section{
 
 header{
   width: 100%;
-  color:black;
+  color: $cloudwhite;
     h1{
       display: inline-block;
-      font-size: 7em;
+      font-size: 5em;
       padding-left: 25px;
+      font-weight: 100;
     }
     h3{
-      margin-left: 50px;
+      padding-left: 60px;
+      font-weight: 600;
+      font-size: 3em;
     }
 }
 
@@ -228,55 +234,74 @@ header{
   background:$darkerbluebg;
   color:white;
   text-align: center;
-  div{
-    vertical-align: top;
-    margin:50px 0;
+  h4{
+    font-size:2.5em;
+    font-weight:500;
   }
-  .sideResume{
-    display: inline-block;
-    width:25%;
-    ul>li{
-      text-align: left;
-      font-weight: 200;
-    }
-    p{
-      font-weight:200;
-      text-align: right;
-    }
-    h4{
-      font-weight: 800;
-      margin-bottom: 50px;
-    }
-    h3{
-      font-weight: 800;
-      text-align: right;
-    }
+}
+.sideResume{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.skillslist{
+  padding:0;
+}
+
+.libs{
+  list-style: none;
+  padding: 0;
+}
+
+.libsLi{
+  font-weight: 100;
+  margin: 10px;
+}
+
+.languages{
+  list-style: none;
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  h3{
+    font-weight:500;
+    font-size:1.5em;
   }
-  .mainResume{
+}
+.resting{
+  width:30%;
+  p{
+    line-height: 1.5;
+  }
+}
+.download{
+  font-size: 2em;
+  text-align: center;
+  p{
     display:inline-block;
-    width:40%;
-    img{
-      max-width: 100%;
-    }
   }
-  }
-  .download{
-    font-size: 2em;
-    text-align: right;
-    p{
-      display:inline-block;
-    }
-  }
+}
 
 /******************************************
                 CONTACT
 ******************************************/
 .contactMe{
-  background-image: url(images/lake.jpg);
-  background-size:cover;
+  color: black;
+  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/mac-glasses.jpeg');
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.getme{
+  color: white;
+  font-size: 3em;
+  list-style: none;
+  margin: 20px;
+  font-weight: 100;
+  text-align: center;
+}
+
 /******************************************
                 FOOTER
 ******************************************/
