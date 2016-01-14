@@ -4,6 +4,7 @@
 /******************************************
                 OVERALL
 ******************************************/
+
 body{
   color:white;
   font-family: 'Exo', sans-serif;
@@ -15,6 +16,10 @@ body{
   padding: 0;
   color: white;
   background-image: url('images/headeroffice.jpg');
+  z-index: -3;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -104,8 +109,12 @@ header{
                 PROJECTS
 ******************************************/
 .collection{
-  background-image: url(images/mothernaturestatue.jpg);
-  background-size:cover;
+  z-index: -2;
+  background-image: url('images/mothernaturestatue.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -288,7 +297,11 @@ header{
 ******************************************/
 .contactMe{
   color: black;
+  z-index: -1;
   background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/mac-glasses.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
