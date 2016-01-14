@@ -6,14 +6,23 @@ body {
   color: white;
   font-family: 'Exo', sans-serif; }
 
-#wrapper {
+section {
+  position: relative;
+  min-height: 500px;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+/******************************************
+                HEADER
+******************************************/
+.wrapper {
   height: 600px;
   position: relative;
   margin: 0;
   padding: 0;
   color: white;
   background-image: url("images/headeroffice.jpg");
-  z-index: -3;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -28,16 +37,6 @@ body {
   padding-left: 30px;
   background: rgba(1, 1, 1, 0.4); }
 
-section {
-  position: relative;
-  min-height: 500px;
-  height: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px; }
-
-/******************************************
-                HEADER
-******************************************/
 header {
   width: 100%;
   color: #ecf0f1; }
@@ -59,7 +58,7 @@ header {
   padding-bottom: 30px;
   position: fixed;
   right: 0;
-  z-index: 100;
+  z-index: 1;
   background: rgba(154, 175, 196, 0.5); }
 
 .boxopt {
@@ -78,6 +77,9 @@ header {
     .boxopt:hover h2 {
       opacity: 1; }
 
+.active {
+  background: rgba(24, 37, 56, 0.8); }
+
 /******************************************
                 ABOUT
 ******************************************/
@@ -91,7 +93,6 @@ header {
                 PROJECTS
 ******************************************/
 .collection {
-  z-index: -2;
   background-image: url("images/mothernaturestatue.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -200,11 +201,11 @@ header {
 /******************************************
                 RESUME
 ******************************************/
-.resume {
+#resume {
   background: rgba(24, 37, 56, 0.95);
   color: white;
   text-align: center; }
-  .resume h4 {
+  #resume h4 {
     font-size: 2.5em;
     font-weight: 500; }
 
@@ -249,14 +250,14 @@ header {
 ******************************************/
 .contactMe {
   color: black;
-  z-index: -1;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/mac-glasses.jpeg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  min-height: 600px; }
 
 .getme {
   color: white;
@@ -270,7 +271,7 @@ header {
                 FOOTER
 ******************************************/
 .footer {
-  z-index: 250;
+  z-index: 3;
   color: white;
   text-align: center;
   clear: both;
