@@ -41,7 +41,7 @@
 
           function onScroll(event){
             var scrollPos = $(document).scrollTop();
-            $('nav a').each(function () {
+            $('.actlink').each(function () {
                 var currLink = $(this);
                 var refElement = $(currLink.attr("href"));
                 if (refElement.position().top -200 <= scrollPos && refElement.position().top + refElement.height()-200 > scrollPos) {

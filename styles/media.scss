@@ -1,0 +1,131 @@
+/*********************************
+    1225 breaking point
+*********************************/
+.upperbox{
+  @media screen and(max-width:1225px){
+    padding:20px 0;
+  }
+  .techused{
+    @media screen and(max-width:1225px){
+      padding:10px;
+      list-style: none;
+    }
+  }
+}
+
+.lowerbox {
+  .projimgbox{
+    img{
+      @media screen and(max-width:1225px){
+        height:60%;
+        margin-top:20%;
+      }
+  }
+}
+}
+
+/*********************************
+    1000 breaking point
+*********************************/
+  .wrapper{
+    @media screen and(max-width:1000px){
+        background: rgba(0,0,0,0.3);
+    }
+  }
+  header{
+    h1{
+      @media screen and(max-width:1000px){
+        display: inline-block;
+        font-size: 4em;
+        padding-left: 25px;
+        color: white;
+        font-weight: 200;
+        margin-top: 75px;
+      }
+    }
+  }
+
+  .customNav{
+    @media screen and(max-width:1000px){
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        right:auto;
+        height:auto;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0.5+100 */
+        background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
+      }
+      .fa{
+        @media screen and(max-width:1000px){
+          font-size: 3em;
+          text-align: center;
+          text-shadow: 0px 0px 1px white;
+        }
+      }
+  }
+  .actlink{
+    @media screen and(max-width:1000px){
+      color: #337ab7;
+      text-decoration: none;
+      display: inline-block;
+      height: 100%;
+      }
+    }
+
+  .boxopt {
+    @media screen and(max-width:1000px){
+      margin-top: 0;
+      color: white;
+      background:none;
+      text-align: center;
+      clear: both;
+      width: 100%;
+      height: 100%;
+    }
+    h2{
+      @media screen and(max-width:1000px){
+        font-size: 2em;
+        font-weight: 300;
+        margin-top: 5px;
+        margin-bottom: 0;
+        height: 100%;
+      }
+    }
+  }
+  .active{
+    @media screen and(max-width:1000px){
+      color: #337ab7;
+      background: none;
+    }
+  }
+nav{
+  .navmail{
+    @media screen and(max-width:1000px){
+      padding-top:0;
+    }
+  }
+
+  .navdiv{
+    @media screen and(max-width:1000px){
+      display: inline-block;
+      margin: 0 20px;
+      text-align: center;
+      clear:none;
+      padding-top: 0;
+      vertical-align: top;
+    }
+  }
+}
+/*********************************
+    800 breaking point
+*********************************/
+
+.container{
+  @media screen and(max-width:850px){
+    width:100%;
+  }
+}

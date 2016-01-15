@@ -1,0 +1,32 @@
+/******************************************
+                HEADER
+******************************************/
+.wrapper{
+  height: 600px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.filter{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  padding-left:30px;
+  background: rgba(1,1,1,0.4);
+}
+header{
+  width: 100%;
+  color: $cloudwhite;
+    h1{
+      display: inline-block;
+      font-size: 5em;
+      padding-left: 25px;
+      font-weight: 100;
+    }
+    h3{
+      padding-left: 60px;
+      font-weight: 600;
+      font-size: 3em;
+    }
+}

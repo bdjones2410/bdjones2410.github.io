@@ -1,0 +1,48 @@
+/*********************
+    libraries
+*********************/
+@import "variables";
+@import url(https://fonts.googleapis.com/css?family=Exo:400,100,200,300,500,600,700,800,900);
+
+/******************************************
+                OVERALL
+******************************************/
+
+body{
+  color:white;
+  font-family: 'Exo', sans-serif;
+}
+section{
+  position: relative;
+  min-height:500px;
+  height:100%;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+
+
+
+/*********************
+    STYLESHEETS
+*********************/
+@import "header";
+@import "nav";
+@import "about";
+@import "projects";
+@import "resume";
+@import "contact";
+@import "footer";
+
+
+/*****************************************
+            OVERWRITE CLASS
+*****************************************/
+
+.smallPadding{
+  padding: 20px 15px;
+}
+
+/****************************************
+            MEDIA QUERYS
+****************************************/
+@import "media";

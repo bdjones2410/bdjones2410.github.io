@@ -1,3 +1,6 @@
+/*********************
+    libraries
+*********************/
 @import url(https://fonts.googleapis.com/css?family=Exo:400,100,200,300,500,600,700,800,900);
 /******************************************
                 OVERALL
@@ -13,6 +16,9 @@ section {
   padding-top: 50px;
   padding-bottom: 50px; }
 
+/*********************
+    STYLESHEETS
+*********************/
 /******************************************
                 HEADER
 ******************************************/
@@ -58,12 +64,12 @@ header {
   margin-top: 30px;
   background: rgba(24, 37, 56, 0);
   text-align: center;
+  color: white;
   clear: both;
   width: 100%; }
   .boxopt h2 {
     font-size: 2em;
-    font-weight: 100;
-    color: white; }
+    font-weight: 100; }
   .boxopt:hover {
     background: rgba(24, 37, 56, 0.8);
     cursor: pointer; }
@@ -156,7 +162,7 @@ nav .fa {
     background: rgba(255, 255, 255, 0.1); }
   .upperbox ul {
     font-weight: 100;
-    font-size: 0.3em;
+    font-size: 0.2em;
     text-align: left;
     margin: 21px 21px 10px 10px;
     display: block;
@@ -182,7 +188,8 @@ nav .fa {
     height: 100%; }
     .lowerbox .projimgbox img {
       max-width: 100%;
-      height: 80%;
+      min-height: 50%;
+      max-height: 80%;
       margin-top: 10%;
       border: 2px solid black; }
   .lowerbox .projabout {
@@ -295,3 +302,113 @@ ul.contact a {
 *****************************************/
 .smallPadding {
   padding: 20px 15px; }
+
+/****************************************
+            MEDIA QUERYS
+****************************************/
+/*********************************
+    1225 breaking point
+*********************************/
+@media screen and (max-width: 1225px) {
+  .upperbox {
+    padding: 20px 0; } }
+
+@media screen and (max-width: 1225px) {
+  .upperbox .techused {
+    padding: 10px;
+    list-style: none; } }
+
+@media screen and (max-width: 1225px) {
+  .lowerbox .projimgbox img {
+    height: 60%;
+    margin-top: 20%; } }
+
+/*********************************
+    1000 breaking point
+*********************************/
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    background: rgba(0, 0, 0, 0.3); } }
+
+@media screen and (max-width: 1000px) {
+  header h1 {
+    display: inline-block;
+    font-size: 4em;
+    padding-left: 25px;
+    color: white;
+    font-weight: 200;
+    margin-top: 75px; } }
+
+@media screen and (max-width: 1000px) {
+  .customNav {
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    right: auto;
+    height: auto;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0.5+100 */
+    background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.5) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#80000000',GradientType=0 );
+    /* IE6-9 */ } }
+
+@media screen and (max-width: 1000px) {
+  .customNav .fa {
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 0px 0px 1px white; } }
+
+@media screen and (max-width: 1000px) {
+  .actlink {
+    color: #337ab7;
+    text-decoration: none;
+    display: inline-block;
+    height: 100%; } }
+
+@media screen and (max-width: 1000px) {
+  .boxopt {
+    margin-top: 0;
+    color: white;
+    background: none;
+    text-align: center;
+    clear: both;
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (max-width: 1000px) {
+  .boxopt h2 {
+    font-size: 2em;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0;
+    height: 100%; } }
+
+@media screen and (max-width: 1000px) {
+  .active {
+    color: #337ab7;
+    background: none; } }
+
+@media screen and (max-width: 1000px) {
+  nav .navmail {
+    padding-top: 0; } }
+
+@media screen and (max-width: 1000px) {
+  nav .navdiv {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+    clear: none;
+    padding-top: 0;
+    vertical-align: top; } }
+
+/*********************************
+    800 breaking point
+*********************************/
+@media screen and (max-width: 850px) {
+  .container {
+    width: 100%; } }
