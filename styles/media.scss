@@ -95,6 +95,11 @@
         height: 100%;
       }
     }
+    &:hover{
+      @media screen and(max-width:1000px){
+        background: none;
+      }
+    }
   }
   .active{
     @media screen and(max-width:1000px){
@@ -157,6 +162,81 @@ ul.contact{
 }
 .customNav{
   .fa{
-    font-size: 2em;
+    @media screen and(max-width:800px){
+      font-size: 2em;
+    }
+  }
+}
+
+/**************************
+    550 breking point
+**************************/
+.customNav{
+  @media screen and(max-width:550px){
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .actlink{
+    @media screen and(max-width:550px){
+      margin-bottom: 10px;
+    }
+  }
+}
+nav{
+  .navdiv{
+    @media screen and(max-width:550px){
+      font-size: .6em;
+    }
+  }
+  .navmail{
+    @media screen and(max-width:550px){
+      margin-left:80px;
+    }
+    @media screen and(max-width:490px){
+      margin-left:20px;
+    }
+  }
+}
+header{
+  h1{
+    @media screen and(max-width:550px){
+      margin-top:100px;
+    }
+  }
+}
+.boxopt{
+  h2{
+    @media screen and(max-width:550px){
+      font-size:0.7em;
+    }
+  }
+}
+
+/*******************************
+      500 break
+*******************************/
+.container{
+  @media screen and(max-width:500px){
+    padding-left:0;
+    padding-right:0;
+  }
+}
+.Projects{
+  @media screen and(max-width:500px){
+    margin-left:0;
+    margin-right:0;
+  }
+}
+.upperbox{
+  .techused{
+    @media screen and(max-width:510px){
+      padding: 0;
+      margin: 8px;
+    }
+  }
+}
+.languages{
+  @media screen and(max-width:510px){
+    width: 40%;
   }
 }

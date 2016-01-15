@@ -390,6 +390,10 @@ ul.contact a {
     height: 100%; } }
 
 @media screen and (max-width: 1000px) {
+  .boxopt:hover {
+    background: none; } }
+
+@media screen and (max-width: 1000px) {
   .active {
     color: #337ab7;
     background: none; } }
@@ -428,5 +432,60 @@ ul.contact a {
   .altText .fa {
     display: none; } }
 
-.customNav .fa {
-  font-size: 2em; }
+@media screen and (max-width: 800px) {
+  .customNav .fa {
+    font-size: 2em; } }
+
+/**************************
+    550 breking point
+**************************/
+@media screen and (max-width: 550px) {
+  .customNav {
+    text-align: center;
+    font-size: 1.5em; } }
+
+@media screen and (max-width: 550px) {
+  .customNav .actlink {
+    margin-bottom: 10px; } }
+
+@media screen and (max-width: 550px) {
+  nav .navdiv {
+    font-size: .6em; } }
+
+@media screen and (max-width: 550px) {
+  nav .navmail {
+    margin-left: 80px; } }
+
+@media screen and (max-width: 490px) {
+  nav .navmail {
+    margin-left: 20px; } }
+
+@media screen and (max-width: 550px) {
+  header h1 {
+    margin-top: 100px; } }
+
+@media screen and (max-width: 550px) {
+  .boxopt h2 {
+    font-size: 0.7em; } }
+
+/*******************************
+      500 break
+*******************************/
+@media screen and (max-width: 500px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0; } }
+
+@media screen and (max-width: 500px) {
+  .Projects {
+    margin-left: 0;
+    margin-right: 0; } }
+
+@media screen and (max-width: 510px) {
+  .upperbox .techused {
+    padding: 0;
+    margin: 8px; } }
+
+@media screen and (max-width: 510px) {
+  .languages {
+    width: 40%; } }
