@@ -21,14 +21,7 @@ section {
   position: relative;
   margin: 0;
   padding: 0;
-  color: white;
-  background-image: url("images/headeroffice.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
+  color: white; }
 
 .filter {
   height: 100%;
@@ -80,6 +73,25 @@ header {
 .active {
   background: rgba(24, 37, 56, 0.8); }
 
+nav .navdiv {
+  text-align: center;
+  clear: both;
+  padding-top: 30px; }
+  nav .navdiv span {
+    font-size: .8em; }
+
+nav .navmail {
+  padding-top: 60px; }
+
+nav div > a {
+  text-decoration: none !important; }
+
+nav .fa {
+  display: block;
+  font-size: 4em;
+  text-align: center;
+  text-shadow: 0px 0px 1px white; }
+
 /******************************************
                 ABOUT
 ******************************************/
@@ -93,13 +105,7 @@ header {
                 PROJECTS
 ******************************************/
 .collection {
-  background-image: url("images/mothernaturestatue.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
+  min-height: 1200px; }
 
 .container {
   width: 80%;
@@ -135,8 +141,7 @@ header {
 
 .upperbox {
   width: 100%;
-  padding: 35px;
-  overflow: scroll; }
+  padding: 35px; }
   .upperbox .fa {
     position: absolute;
     right: 10px;
@@ -153,7 +158,8 @@ header {
     font-size: 0.3em;
     text-align: left;
     margin: 21px 21px 10px 10px;
-    display: block; }
+    display: block;
+    overflow: scroll; }
     .upperbox ul li {
       list-style-type: circle; }
 
@@ -250,14 +256,8 @@ header {
 ******************************************/
 .contactMe {
   color: black;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/mac-glasses.jpeg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  min-height: 600px; }
+  min-height: 600px;
+  background: rgba(1, 1, 1, 0.5); }
 
 .getme {
   color: white;
@@ -266,6 +266,16 @@ header {
   margin: 20px;
   font-weight: 100;
   text-align: center; }
+  .getme a > .fa {
+    margin-right: 10px;
+    font-size: 1.5em; }
+
+ul.contact a {
+  text-decoration: none !important;
+  color: white;
+  font-size: .5em; }
+  ul.contact a:hover {
+    font-weight: 500; }
 
 /******************************************
                 FOOTER

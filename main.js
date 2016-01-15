@@ -15,7 +15,6 @@
         },
 
         events: function() {
-
         $(document).on("scroll", onScroll);
 
         //smoothscroll
@@ -55,13 +54,11 @@
             });
           }
 
+            $('nav').on('click','.boxopt',function(e){
+              $(this).addClass('active');
+              $(this).parent().siblings().children('.boxopt').removeClass('active');
+            });
 
-
-            //
-            // $('nav').on('click','.boxopt',function(e){
-            //   $(this).addClass('active');
-            //   $(this).parent().siblings().children('.boxopt').removeClass('active');
-            // });
             $('section').on('click', '.upperbox', function(e) {
                 e.preventDefault();
                 var biggertech = techhigh + 200;
