@@ -105,7 +105,8 @@ nav .fa {
                 PROJECTS
 ******************************************/
 .collection {
-  min-height: 1200px; }
+  min-height: 1200px;
+  background: rgba(1, 1, 1, 0.2); }
 
 .container {
   width: 80%;
