@@ -213,6 +213,14 @@ nav .fa {
 .noOP {
   opacity: 1; }
 
+.altTech {
+  display: none;
+  padding-top: 5px;
+  text-align: left; }
+  .altTech li {
+    font-size: .2em;
+    font-weight: 300; }
+
 /******************************************
                 RESUME
 ******************************************/
@@ -323,6 +331,11 @@ ul.contact a {
   .lowerbox .projimgbox img {
     height: 60%;
     margin-top: 20%; } }
+
+@media screen and (max-width: 550px) {
+  .lowerbox .projimgbox img {
+    height: 30%;
+    margin-top: 10%; } }
 
 /*********************************
     1000 breaking point
@@ -481,11 +494,28 @@ ul.contact a {
     margin-left: 0;
     margin-right: 0; } }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 675px) {
   .upperbox .techused {
     padding: 0;
     margin: 8px; } }
 
+@media screen and (max-width: 550px) {
+  .upperbox .techused {
+    display: none; } }
+
+@media screen and (max-width: 550px) {
+  .lowerbox .projabout p {
+    font-size: 0.2em;
+    font-weight: 300; } }
+
 @media screen and (max-width: 510px) {
   .languages {
     width: 40%; } }
+
+@media screen and (max-width: 550px) {
+  .altTech {
+    display: block; } }
+
+@media screen and (max-width: 550px) {
+  .libsLi {
+    font-weight: 300; } }

@@ -123,3 +123,12 @@ background: rgba(1,1,1,0.2);
 .noOP{
   opacity: 1;
 }
+.altTech{
+  display:none;
+  padding-top: 5px;
+  text-align: left;
+  li{
+    font-size: .2em;
+    font-weight: 300;
+  }
+}
