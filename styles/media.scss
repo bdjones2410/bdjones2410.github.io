@@ -129,3 +129,34 @@ nav{
     width:100%;
   }
 }
+
+ul.contact{
+  a{
+    @media screen and(max-width:800px){
+      font-weight: 400;
+      &:hover{
+        font-weight:500;
+      }
+    }
+  }
+}
+
+.boxopt{
+  h2{
+    @media screen and(max-width:800px){
+      font-size: 1em;
+    }
+  }
+}
+.altText{
+  .fa{
+    @media screen and(max-width:800px){
+      display: none;
+    }
+  }
+}
+.customNav{
+  .fa{
+    font-size: 2em;
+  }
+}

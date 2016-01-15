@@ -413,3 +413,20 @@ ul.contact a {
 @media screen and (max-width: 850px) {
   .container {
     width: 100%; } }
+
+@media screen and (max-width: 800px) {
+  ul.contact a {
+    font-weight: 400; }
+    ul.contact a:hover {
+      font-weight: 500; } }
+
+@media screen and (max-width: 800px) {
+  .boxopt h2 {
+    font-size: 1em; } }
+
+@media screen and (max-width: 800px) {
+  .altText .fa {
+    display: none; } }
+
+.customNav .fa {
+  font-size: 2em; }
