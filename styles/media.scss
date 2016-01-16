@@ -196,8 +196,10 @@ nav{
     @media screen and(max-width:550px){
       margin-left:80px;
     }
-    @media screen and(max-width:490px){
-      margin-left:20px;
+  }
+  .navgit {
+    @media screen and(max-width:550px){
+      margin-right:80px;
     }
   }
 }
@@ -245,7 +247,7 @@ header{
 .lowerbox{
   .projabout{
     p{
-      @media screen and(max-width:550px){
+      @media screen and(max-width:625px){
         font-size: 0.2em;
         font-weight: 300;
       }
@@ -263,7 +265,7 @@ header{
   }
 }
 .libsLi{
-  @media screen and(max-width:550px){
+  @media screen and(max-width:600px){
     font-weight:300;
   }
 }

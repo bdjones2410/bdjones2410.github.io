@@ -471,9 +471,9 @@ ul.contact a {
   nav .navmail {
     margin-left: 80px; } }
 
-@media screen and (max-width: 490px) {
-  nav .navmail {
-    margin-left: 20px; } }
+@media screen and (max-width: 550px) {
+  nav .navgit {
+    margin-right: 80px; } }
 
 @media screen and (max-width: 550px) {
   header h1 {
@@ -505,7 +505,7 @@ ul.contact a {
   .upperbox .techused {
     display: none; } }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 625px) {
   .lowerbox .projabout p {
     font-size: 0.2em;
     font-weight: 300; } }
@@ -518,6 +518,6 @@ ul.contact a {
   .altTech {
     display: block; } }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .libsLi {
     font-weight: 300; } }
