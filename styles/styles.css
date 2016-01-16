@@ -7,7 +7,8 @@
 ******************************************/
 body {
   color: white;
-  font-family: 'Exo', sans-serif; }
+  font-family: 'Exo', sans-serif;
+  min-width: 500px; }
 
 section {
   position: relative;
@@ -304,6 +305,7 @@ ul.contact a {
   clear: both;
   background-color: #182538;
   position: absolute;
+  min-width: 500px;
   width: 100%; }
 
 /*****************************************
