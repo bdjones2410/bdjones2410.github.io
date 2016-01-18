@@ -2,9 +2,9 @@
                 CONTACT
 ******************************************/
 .contactMe{
-  color: black;
   min-height: 600px;
-  background: rgba(1,1,1,0.5);
+  padding-top:0;
+  padding-bottom:0;
 }
 .getme{
   color: white;
@@ -27,4 +27,10 @@ ul.contact{
       font-weight:500;
     }
   }
+}
+.filtercontact{
+  position: absolute;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  padding-top:30px;
 }
