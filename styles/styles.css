@@ -18,6 +18,10 @@ section {
   padding-top: 50px;
   padding-bottom: 50px; }
 
+.amph {
+  font-weight: 200;
+  font-family: fantasy; }
+
 /*********************
     STYLESHEETS
 *********************/
@@ -50,6 +54,8 @@ header {
     padding-left: 60px;
     font-weight: 600;
     font-size: 3em; }
+  header .first {
+    font-size: 1.3em; }
 
 /******************************************
                 NAV
@@ -108,6 +114,8 @@ nav .fa {
 
 .upAbout {
   position: absolute; }
+  .upAbout p {
+    line-height: 2; }
 
 /******************************************
                 PROJECTS
@@ -259,7 +267,7 @@ nav .fa {
     font-size: 1.5em; }
 
 .resting {
-  width: 30%; }
+  width: 90%; }
   .resting p {
     line-height: 1.5; }
 
@@ -513,6 +521,11 @@ ul.contact a {
 @media screen and (max-width: 510px) {
   .languages {
     width: 40%; } }
+
+.resting {
+  width: 90%; }
+  .resting p {
+    line-height: 1.5; }
 
 @media screen and (max-width: 550px) {
   .altTech {

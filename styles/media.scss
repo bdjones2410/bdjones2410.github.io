@@ -259,6 +259,12 @@ header{
     width: 40%;
   }
 }
+.resting{
+  width:90%;
+  p{
+    line-height: 1.5;
+  }
+}
 .altTech{
   @media screen and(max-width:550px){
     display:block;
