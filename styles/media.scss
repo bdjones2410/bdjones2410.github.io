@@ -31,6 +31,11 @@
 /*********************************
     1000 breaking point
 *********************************/
+.upAbout{
+  @media screen and(max-width:1000px){
+    padding-right:0;
+  }
+}
   .wrapper{
     @media screen and(max-width:1000px){
         background: rgba(0,0,0,0.3);
@@ -197,7 +202,7 @@ nav{
       margin-left:80px;
     }
   }
-  .navgit {
+  .navphone {
     @media screen and(max-width:550px){
       margin-right:80px;
     }

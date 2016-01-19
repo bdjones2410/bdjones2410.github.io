@@ -66,7 +66,8 @@ header {
   position: fixed;
   right: 0;
   z-index: 1;
-  background: rgba(154, 175, 196, 0.5); }
+  background: rgba(154, 175, 196, 0.5);
+  text-align: center; }
 
 .boxopt {
   margin-top: 30px;
@@ -106,6 +107,11 @@ nav .fa {
   text-align: center;
   text-shadow: 0px 0px 1px white; }
 
+.contactlinks {
+  vertical-align: top;
+  text-align: center;
+  margin-top: 10px; }
+
 /******************************************
                 ABOUT
 ******************************************/
@@ -113,7 +119,8 @@ nav .fa {
   background: rgba(24, 37, 56, 0.95); }
 
 .upAbout {
-  position: absolute; }
+  position: absolute;
+  padding-right: 60px; }
   .upAbout p {
     line-height: 2; }
 
@@ -357,6 +364,10 @@ ul.contact a {
     1000 breaking point
 *********************************/
 @media screen and (max-width: 1000px) {
+  .upAbout {
+    padding-right: 0; } }
+
+@media screen and (max-width: 1000px) {
   .wrapper {
     background: rgba(0, 0, 0, 0.3); } }
 
@@ -486,7 +497,7 @@ ul.contact a {
     margin-left: 80px; } }
 
 @media screen and (max-width: 550px) {
-  nav .navgit {
+  nav .navphone {
     margin-right: 80px; } }
 
 @media screen and (max-width: 550px) {
