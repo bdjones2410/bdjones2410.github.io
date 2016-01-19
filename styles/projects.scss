@@ -42,6 +42,9 @@ background: rgba(1,1,1,0.2);
 .upperbox{
   width:100%;
   padding:35px;
+  &:hover{
+    cursor: pointer;
+  }
   .fa{
     position: absolute;
     right:10px;
