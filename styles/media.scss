@@ -222,6 +222,11 @@ header{
     }
   }
 }
+.abtName {
+  @media screen and(max-width:550px){
+    font-size:2em;
+  }
+}
 
 /*******************************
       500 break

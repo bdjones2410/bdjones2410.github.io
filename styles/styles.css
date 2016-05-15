@@ -124,7 +124,7 @@ nav .fa {
 
 .myimg {
   width: 250px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   margin-right: 20px;
   float: left; }
 
@@ -516,6 +516,10 @@ ul.contact a {
 @media screen and (max-width: 550px) {
   .boxopt h2 {
     font-size: 0.7em; } }
+
+@media screen and (max-width: 550px) {
+  .abtName {
+    font-size: 2em; } }
 
 /*******************************
       500 break
