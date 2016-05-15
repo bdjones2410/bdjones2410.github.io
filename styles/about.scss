@@ -5,10 +5,23 @@
 .aboutMe{
   background:$darkerbluebg;
 }
+
 .upAbout{
   position: absolute;
   padding-right:60px;
   p{
     line-height:2;
+    padding:0 5px;
   }
+}
+
+.myimg {
+  width:250px;
+  margin-bottom:10px;
+  margin-right:20px;
+  float:left;
+}
+
+.abtName{
+  margin-top:0;
 }

@@ -119,7 +119,17 @@ nav .fa {
   position: absolute;
   padding-right: 60px; }
   .upAbout p {
-    line-height: 2; }
+    line-height: 2;
+    padding: 0 5px; }
+
+.myimg {
+  width: 250px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  float: left; }
+
+.abtName {
+  margin-top: 0; }
 
 /******************************************
                 PROJECTS
